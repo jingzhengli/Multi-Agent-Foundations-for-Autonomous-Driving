@@ -2,52 +2,6 @@
 
 This repository reorganizes paper lists according to the survey outline below, with a focus on 2020-2026 works and a few classic pre-2020 foundations.
 
-## Subsection Titles (Aligned with Your Outline)
-
-- `Surveys`
-- `Background: From LLM Agents to Autonomous Driving Agents`
-- `Single-Agent Foundation-Model Agents for Autonomous Driving`
-  - `Foundation Model as Driving Controllers`
-    - `LLM as high-level planner/reasoner`
-    - `VLM-based driving agents`
-    - `VLA/end-to-end policy learning for driving`
-    - `World-model-enhanced driving agents`
-  - `Foundation Model as Scenario Generators and Test Agents`
-    - `Text-to-scenario generation`
-    - `Closed-loop adversarial/safety-critical scenario generation`
-    - `Scenario analysis and failure explanation`
-    - `LLM/VLM/world model for testing, red-teaming, and evaluation`
-  - `Summary of Single-Agent Limitations`
-- `Multi-Agent Foundations for Autonomous Driving`
-  - `Why Autonomous Driving Is Intrinsically Multi-Agent`
-    - `Traffic is a partially observable multi-agent system`
-    - `From single-vehicle intelligence to interaction-aware intelligence`
-    - `Why language/model-based coordination becomes attractive`
-  - `Multi-Agent Collaboration`
-    - `Cooperative driving`
-    - `Strategic negotiation under partially aligned goals`
-    - `Mixed-autonomy and mixed-motive traffic`
-  - `Multi-Agent Organization Structures`
-    - `Centralized coordination with a conflict resolver`
-    - `Hierarchical coordination across planning levels`
-    - `Distributed coordination via message passing`
-  - `Multi-Agent Communication Dimensions`
-    - `What to communicate` (state, intent, goals, uncertainty)
-    - `How to communicate` (natural language, structured packets, QA, negotiation)
-    - `Why to communicate` (perception completion, planning coordination, trust and explanation)
-- `Intra-Vehicle Multi-Agent Systems`
-  - `Role Decomposition Inside the Driving Stack`
-  - `Coordination Patterns Among In-Vehicle Agents`
-- `Inter-Vehicle and Traffic-Level Multi-Agent Systems`
-  - `Vehicles as Language-Capable Social Agents`
-  - `Multi-Agent Traffic Scenarios`
-  - `Collaboration Modes`
-  - `Infrastructure and Human in the Loop`
-- `Evaluation Protocols, Datasets, and Benchmarks`
-- `Open Challenges and Future Directions`
-
----
-
 ## Surveys
 
 ### Core LLM/Multi-Agent Surveys
