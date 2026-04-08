@@ -62,7 +62,7 @@ This repository reorganizes paper lists according to the survey outline below, w
 
 #### VLA/end-to-end policy learning for driving
 
-- [2025/10] ReflectDrive: Discrete Diffusion for Reflective VLA in AD [[paper]](https://arxiv.org/abs/2509.20109)
+- [2026/04] UniDriveVLA: Unifying Understanding, Perception, and Action Planning for Autonomous Driving [[paper]](https://arxiv.org/abs/2604.02190)
 - [2025/08] EMMA: End-to-End Multimodal Model for Autonomous Driving [[paper]](https://arxiv.org/abs/2410.23262)
 - [2025/06] AutoVLA: A Vision-Language-Action Model for End-to-End AD [[paper]](https://arxiv.org/abs/2506.13757)
 - [2025/05] DriveMoE: Mixture-of-Experts for VLA in End-to-End AD [[paper]](https://arxiv.org/abs/2505.16278)
@@ -70,11 +70,26 @@ This repository reorganizes paper lists according to the survey outline below, w
 - [2025/03] SimLingo: Vision-Only Closed-Loop AD with Language-Action Alignment [[paper]](https://arxiv.org/abs/2503.09594)
 - [2023/12] LMDrive: Closed-Loop End-to-End Driving with Large Language Models [[paper]](https://arxiv.org/abs/2312.07488)
 
+#### Diffusion model for driving
+
+- [2025/12] DiffusionDriveV2: Reinforcement Learning-Constrained Truncated Diffusion Modeling in End-to-End Autonomous Driving [[paper]](https://arxiv.org/abs/2512.07745)
+- [2025/12] Mimir: Hierarchical Goal-Driven Diffusion with Uncertainty Propagation for End-to-End Autonomous Driving [[paper]](https://arxiv.org/abs/2512.07130)
+- [2025/10] ReflectDrive: Discrete Diffusion for Reflective VLA in AD [[paper]](https://arxiv.org/abs/2509.20109)
+- [2025/09] A Knowledge-Driven Diffusion Policy for End-to-End Autonomous Driving Based on Expert Routing [[paper]](https://arxiv.org/abs/2509.04853)
+- [2025/08] ViLaD: A Large Vision Language Diffusion Framework for End-to-End Autonomous Driving [[paper]](https://arxiv.org/abs/2508.12603)
+- [2025/05] DiffE2E: Rethinking End-to-End Driving with a Hybrid Action Diffusion and Supervised Policy [[paper]](https://arxiv.org/abs/2505.19516)
+- [2025/03] DiffAD: A Unified Diffusion Modeling Approach for Autonomous Driving [[paper]](https://arxiv.org/abs/2503.12170)
+- [2024/11] DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving [[paper]](https://arxiv.org/abs/2411.15139)
+- [2024/11] Imagine-2-Drive: Leveraging High-Fidelity World Models via Multi-Modal Diffusion Policies [[paper]](https://arxiv.org/abs/2411.10171)
+
 #### World-model-enhanced driving agents
 
+- [2026/01] UniDrive-WM: Unified Understanding, Planning and Generation World Model For Autonomous Driving [[paper]](https://arxiv.org/abs/2601.04453)
 - [2025/06] ReSim: Reliable World Simulation for Autonomous Driving [[paper]](https://arxiv.org/abs/2506.09981)
 - [2025/03] GAIA-2: A Controllable Multi-View Generative World Model for AD [[paper]](https://arxiv.org/abs/2503.20523)
+- [2025/02] VaViM and VaVAM: Autonomous Driving through Video Generative Modeling [[paper]](https://arxiv.org/abs/2502.15672)
 - [2024/12] DrivingWorld: Constructing World Model for AD via Video GPT [[paper]](https://arxiv.org/abs/2412.19505)
+- [2024/12] DrivingGPT: Unifying Driving World Modeling and Planning with Multi-Modal Autoregressive Transformers [[paper]](https://arxiv.org/abs/2412.18607)
 - [2024/12] Doe-1: Closed-Loop Autonomous Driving with Large World Model [[paper]](https://arxiv.org/abs/2412.09627)
 - [2024/11] DriveDreamer4D: World Models as Effective Data Machines [[paper]](https://arxiv.org/abs/2410.13571)
 - [2024/05] DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation [[paper]](https://arxiv.org/abs/2403.06845)
@@ -96,6 +111,8 @@ This repository reorganizes paper lists according to the survey outline below, w
 
 #### Closed-loop adversarial/safety-critical scenario generation
 
+- [2026/03] AnchorDrive: LLM Scenario Rollout with Anchor-Guided Diffusion Regeneration for Safety-Critical Scenario Generation [[paper]](https://arxiv.org/abs/2603.02542)
+- [2025/12] VLM as Strategist: Adaptive Generation of Safety-Critical Testing Scenarios via Guided Diffusion [[paper]](https://arxiv.org/abs/2512.02844)
 - [2025/08] Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios [[paper]](https://arxiv.org/abs/2508.14527)
 - [2025/07] AGENTS-LLM: Augmentative Generation of Challenging Traffic Scenarios [[paper]](https://arxiv.org/abs/2507.13729)
 - [2025/05] Seeking to Collide: Online Safety-Critical Generation with RAG-LLM [[paper]](https://arxiv.org/abs/2505.00972)
@@ -271,6 +288,7 @@ Architecture / Goal / Protocol / Strategy / Content
 
 ## Evaluation Protocols, Datasets, and Benchmarks
 
+- [2026/04] Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models [[paper]](https://arxiv.org/abs/2604.01259)
 - [2026/01] AgentDrive benchmark [[paper]](https://arxiv.org/abs/2601.16964)
 - [2026/01] AutoDriDM [[paper]](https://arxiv.org/pdf/2601.14702)
 - [2025/12] RoadSceneVQA [[paper]](https://arxiv.org/abs/2511.18286)
@@ -284,6 +302,191 @@ Architecture / Goal / Protocol / Strategy / Content
 - [2024/07] WOMD-Reasoning dataset [[paper]](https://arxiv.org/abs/2407.04281)
 - [2024/02] LLMArena (dynamic multi-agent evaluation) [[paper]](https://arxiv.org/abs/2402.16499)
 - [2023/11] MAgIC benchmark [[paper]](https://arxiv.org/abs/2311.08562)
+
+## 📊 Datasets Comparison
+
+The following figure shows the usage distribution of different foundation model types across autonomous driving datasets:
+
+<p align="center">
+<img src="Assets/dataset_usage_combined_plot.png" width="100%" height="auto"/>
+</p>
+
+<details open>
+<summary><strong>Datasets Comparison</strong></summary>
+
+| Dataset | Year | Img | View | Real | Lidar | Radar | Traj | 3D | 2D | Lane | Weather | Time | Region | Company |
+|:--------|:-----|:----|:-----|:-----|:------|:------|:-----|:---|:---|:-----|:--------|:-----|:-------|:--------|
+| [CamVid](https://service.tib.eu/ldmservice/dataset/camvid-dataset) | 2009 | RGB | FPV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✔ | D | U | - |
+| [KITTI](https://www.cvlibs.net/datasets/kitti/) | 2013 | RGB/S | FPV | ✔ | ✔ | ✖️ | ✔ | ✔ | ✔ | ✔ | ✔ | D | U/R/H | - |
+| [Cyclists](https://www.ifi-mec.tu-clausthal.de/ctv-dataset) | 2016 | RGB | FPV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | D | U | - |
+| [Cityscapes](https://www.cityscapes-dataset.com/login/) | 2016 | RGB/S | FPV | ✔ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✔ | ✖️ | D | U | - |
+| [SYNTHIA](https://service.tib.eu/ldmservice/dataset/bibtex/synthia) | 2016 | RGB | FPV | ✖️ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✔ | ✔ | D/N | U | - |
+| [Campus](https://paperswithcode.com/dataset/campus-shelf) | 2016 | RGB | BEV | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | D | C | - |
+| [RobotCar](https://universe.roboflow.com/robotcar-lnnmb/robotcar-kj2cb) | 2016 | RGB | FPV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | D/N | U | - |
+| [Mapillary](https://www.kaggle.com/c/mapillary-vistas-detection-challenge/data) | 2017 | RGB | FPV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✔ | D/N | U | - |
+| [P.F.B.](https://scispace.com/pdf/brno-urban-dataset-the-new-data-for-self-driving-agents-and-3songw9bsn.pdf) | 2017 | RGB | FPV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✔ | D/N | U | - |
+| [BDD100K](https://datasetninja.com/bdd100k) | 2018 | RGB | FPV | ✔ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✔ | ✔ | D | U/H | - |
+| [HighD](https://levelxdata.com/highd-dataset/) | 2018 | RGB | BEV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✖️ | D | H | - |
+| [Udacity](https://www.kaggle.com/datasets/evilspirit05/cocococo-dataset) | 2018 | RGB | FPV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | D | U | - |
+| [KAIST](https://msc.kaist.ac.kr/bbs/board.php?bo_table=CAG&amp;wr_id=25) | 2018 | RGB/S | FPV | ✔ | ✔ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✔ | D/N | U | - |
+| [Argoverse](https://docs.ultralytics.com/datasets/detect/argoverse/) | 2019 | RGB/S | FPV | ✔ | ✔ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✔ | D/N | U | - |
+| [TRAF](https://tum-traffic-dataset.github.io/tumtraf-v2x/) | 2019 | RGB | FPV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✔ | D | U | - |
+| [ApolloScape](https://service.tib.eu/ldmservice/dataset/305aef79-4191-4717-bb6a-496fa1f5ac4c) | 2019 | RGB/S | FPV | ✔ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✔ | ✔ | D | U | - |
+| [ACFR](https://datasetninja.com/acfr-multifruit-2016) | 2019 | RGB | BEV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | D | RA | - |
+| [H3D](https://paperswithcode.com/dataset/h3d) | 2019 | RGB | FPV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✔ | D | U | - |
+| [INTERACTION](https://interaction-dataset.com/) | 2019 | RGB | BEV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | D | I/RA | - |
+| [Comma2k19](https://github.com/commaai/comma2k19) | 2019 | RGB | FPV | ✔ | ✖️ | ✖️ | ✔ | ✔ | ✖️ | ✖️ | ✖️ | D/N | U/S/R/H | - |
+| [InD](https://www.ind-dataset.com/) | 2020 | RGB | BEV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | D | I | - |
+| [RounD](https://levelxdata.com/round-dataset/) | 2020 | RGB | BEV | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | D | RA | - |
+| [nuScenes](https://www.nuscenes.org/nuscenes) | 2020 | RGB | FPV | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | ✔ | ✔ | D/N | U | - |
+| [Lyft Level 5](https://hyper.ai/en/datasets/9036) | 2020 | RGB | FPV | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | ✔ | ✔ | D/N | U/S | - |
+| [Waymo Open](https://waymo.com/open/download/) | 2020 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | D/N | U | - |
+| [A*3D](https://hyper.ai/en/datasets/17161) | 2020 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | D/N | U | - |
+| [RobotCar Radar](https://oxford-robotics-institute.github.io/oord-dataset/) | 2020 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | D/N | U | - |
+| [Toronto3D](https://onedrive.live.com/?authkey=%21AKEpLxU5CWVW%2DPg&id=E9CE176726EB5C69%216398&cid=E9CE176726EB5C69&parId=root&parQt=sharedby&o=OneUp) | 2020 | RGB | BEV | ✔ | ✔ | ✖️ | ✔ | ✔ | ✖️ | ✔ | ✖️ | D/N | U | University of Waterloo |
+| [A2D2](https://registry.opendata.aws/aev-a2d2/) | 2020 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | D | U/H/S/R | Audi |
+| [WADS](https://bitbucket.org/autonomymtu/dsor_filter) | 2020 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | ✖️ | ✔ | D/N | U/S/R | Michigan Technological University |
+| [Argoverse 2](https://www.argoverse.org/av2.html) | 2021 | RGB/S | FPV | ✔ | ✔ | ✖️ | ✖️ | ✔ | ✔ | ✔ | ✔ | D/N | U | - |
+| [PandaSet](https://scale.com/open-datasets/pandaset) | 2021 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | D/N | U | - |
+| [ONCE](https://www.once-for-auto-driving.com) | 2021 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | D/N | U | - |
+| [Leddar PixSet](https://leddartech.com/datasets/leddarpixset-download-form/) | 2021 | RGB | FPV | ✔ | ✔ | ✖️ | ✔ | ✔ | ✔ | ✖️ | ✔ | D/N | U/S/R | Leddar |
+| [ZOD](https://zod.zenseact.com/) | 2022 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | D/N | U/R/S/H | Zenseact |
+| [IDD-3D](https://idd3d.github.io/) | 2022 | RGB | FPV | ✔ | ✔ | ✖️ | ✖️ | ✔ | ✔ | ✖️ | ✖️ | - | R | INAI |
+| [CODA](https://paperswithcode.com/dataset/coda) | 2022 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | D/N | U/S/R | Huawei |
+| [SHIFT](https://vis.xyz/shift) | 2022 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | D/N | U/S/R/H | ETH Zürich |
+| [DeepAccident](https://arxiv.org/html/2304.01168v5) | 2023 | RGB/S | FPV/BEV | ✖️ | ✔ | ✖️ | ✖️ | ✔ | ✔ | ✔ | ✔ | D/N | U/S/R/H | HKU, Huawei, CARLA |
+| [Dual_Radar](https://github.com/adept-thu/Dual-Radar) | 2023 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | D/N | U | Tsinghua University |
+| [V2V4Real](https://mobility-lab.seas.ucla.edu/v2v4real/) | 2023 | RGB | FPV | ✔ | ✔ | ✖️ | ✔ | ✔ | ✖️ | ✔ | ✖️ | - | U/H/S | UCLA Mobility Lab |
+| [SCaRL](https://fhr-ihs-sva.pages.fraunhofer.de/asp/scarl/) | 2024 | RGB/S | FPV/BEV | ✖️ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | D/N | U/S/R/H | Fraunhofer CARLA |
+| [MARS](https://data.nasa.gov/dataset/ai4mars-a-dataset-for-terrain-aware-autonomous-driving-on-mars) | 2024 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | D/N | U/S/H | NYU, MAY Mobility |
+| [Scenes101](https://wayve.ai/science/wayvescenes101/) | 2024 | RGB | FPV | ✔ | ✖️ | ✖️ | ✔ | ✖️ | ✖️ | ✔ | ✔ | D/N | U/S/R/H | Wayve |
+| TruckScenes | 2025 | RGB | FPV | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | D/N | H/U | MAN |
+
+*Notes: View: FPV=First-Person, BEV=Bird's-Eye; Time: D=Day, N=Night; Region: U=Urban, R=Rural, H=Highway, S=Suburban, C=Campus, I=Intersection, RA=Road Area; Img: RGB/S=RGB+Stereo*
+
+</details>
+
+## 🎮 Simulators
+
+The following figure shows the usage distribution of different foundation model types across autonomous driving simulators:
+
+<p align="center">
+<img src="Assets/simulator_usage_plot.png" width="100%" height="auto"/>
+</p>
+
+<details open>
+<summary><strong>Simulators</strong></summary>
+
+| Simulator | Year | Back-end | Open Source | Realistic Perception | Custom Scenario | Real World Map | Human Design Map | Python API | C++ API | ROS API | Company |
+|:----------|:-----|:---------|:------------|:---------------------|:----------------|:---------------|:-----------------|:-----------|:--------|:--------|:--------|
+| [TORCS](http://torcs.sourceforge.net/) | 2000 | None | ✔ | ✔ | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | - |
+| [Webots](https://cyberbotics.com/) | 2004 | ODE | ✔ | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | ✖️ | - |
+| [CarRacing](https://www.gymlibrary.dev/environments/box2d/car_racing/) | 2017 | None | ✔ | ✖️ | ✖️ | ✖️ | ✔ | ✔ | ✖️ | ✖️ | - |
+| [CARLA](http://carla.org/) | 2017 | UE4 | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | ✔ | ✔ | - |
+| [SimMobilityST](https://www.researchgate.net/publication/313289844_SimMobility_Short-term_An_Integrated_Microscopic_Mobility_Simulator) | 2017 | None | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | - |
+| [GTA-V](https://github.com/aitorzip/DeepGTAV) | 2017 | RAGE | ✖️ | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | ✖️ | - |
+| [highway-env](https://github.com/eleurent/highway-env) | 2018 | None | ✔ | ✖️ | ✔ | ✖️ | ✔ | ✔ | ✖️ | ✖️ | - |
+| [Deepdrive](https://deepdrive.io/) | 2018 | UE4 | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | ✔ | ✖️ | - |
+| [esmini](https://cloe.readthedocs.io/en/latest/reference/plugins/esmini.html) | 2018 | Unity | ✔ | ✖️ | ✖️ | ✖️ | ✖️ | ✔ | ✖️ | ✖️ | - |
+| [AutonoViSim](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w14/Best_AutonoVi-Sim_Autonomous_Vehicle_CVPR_2018_paper.pdf) | 2018 | PhysX | ✖️ | ✔ | ✔ | ✖️ | ✖️ | ✔ | ✖️ | ✖️ | - |
+| [AirSim](https://microsoft.github.io/AirSim/) | 2018 | UE4 | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | ✔ | ✖️ | - |
+| [SUMO](https://www.eclipse.org/sumo/) | 2018 | None | ✔ | ✖️ | ✔ | ✔ | ✔ | ✖️ | ✔ | ✖️ | - |
+| [Apollo](http://apollo.auto/) | 2018 | Unity | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | - |
+| [Sim4CV](https://sim4cv.org/) | 2018 | UE4 | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | ✖️ | ✖️ | - |
+| [MATLAB](https://www.mathworks.com/products/automated-driving.html) | 2018 | MATLAB | ✖️ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | Mathworks |
+| [Scenic](https://scenic-lang.org/) | 2019 | None | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | ✖️ | Toyota Research Institute, UC Berkeley |
+| [SUMMIT](https://github.com/AdaCompNUS/summit) | 2020 | UE4 | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | ✔ | ✖️ | - |
+| [MultiCarRacing](https://github.com/ananya183/collaborative-multi-car-racing) | 2020 | None | ✔ | ✖️ | ✔ | ✖️ | ✔ | ✔ | ✖️ | ✖️ | - |
+| [SMARTS](https://smarts.readthedocs.io/en/latest/) | 2020 | None | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | ✖️ | - |
+| [LGSVL](https://www.lgsvlsimulator.com/) | 2020 | Unity | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | - |
+| [CausalCity](https://arxiv.org/html/2306.03354v2) | 2020 | UE4 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | ✖️ | - |
+| [Vista](https://vista.csail.mit.edu/) | 2020 | None | ✔ | ✔ | ✔ | ✔ | ✖️ | ✔ | ✖️ | ✖️ | MIT |
+| [MetaDrive](https://metadriverse.github.io/metadrive/) | 2021 | Panda3D | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | - |
+| [L2R](https://github.com/learn-to-race/l2r) | 2021 | UE4 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | - |
+| [AutoDRIVE](https://autodrive-ecosystem.github.io/) | 2021 | Unity | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | - |
+| [Nuplan](https://www.nuplan.org/) | 2021 | None | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | ✖️ | Motional |
+| [AWSIM](https://autowarefoundation.github.io/AWSIM-Labs/) | 2021 | Unity | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | ✖️ | ✔ | Autoware |
+| [InterSim](https://tsinghua-mars-lab.github.io/InterSim/) | 2022 | None | ✔ | ✔ | ✔ | ✔ | ✖️ | ✔ | ✖️ | ✖️ | Tsinghua |
+| [Nocturne](https://github.com/facebookresearch/nocturne) | 2022 | None | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | Facebook |
+| [BeamNG.tech](https://beamng.tech/) | 2022 | Soft-body physics | ✖️ | ✔ | ✔ | ✖️ | ✔ | ✔ | ✖️ | ✔ | BeamNG GmbH |
+| [Waymax](https://github.com/waymo-research/waymax) | 2023 | JAX | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | ✖️ | ✖️ | Waymo |
+| [UNISim](https://github.com/Sense-X/UNISim) | 2023 | None | ✖️ | ✔ | ✔ | ✔ | ✖️ | ✖️ | ✔ | ✖️ | Waabi |
+| [TBSim](https://github.com/NVlabs/traffic-behavior-simulation) | 2023 | None | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖️ | ✖️ | NVIDIA |
+| [Nvidia DriveWorks](https://developer.nvidia.com/drive/driveworks) | 2024 | Nvidia GPU | ✖️ | ✔ | ✔ | ✔ | ✖️ | ✔ | ✔ | ✖️ | NVIDIA |
+
+</details>
+
+## 🏆 Foundation Model Benchmark Challenges (2022–2025)
+
+<details open>
+<summary><strong>Benchmark Challenges</strong></summary>
+
+### Autonomous Driving
+
+| Name                              | Host                    |
+|-----------------------------------|-------------------------|
+| [CARLA AD Challenge](https://leaderboard.carla.org/)                | CARLA                   |
+| [DRL4Real](https://drl4real-workshop.github.io/)                          | ICCV                    |
+| [Waymo Open Dataset Challenge](https://waymo.com/open/challenges/)      | Waymo / CVPR WAD       |
+| [Argoverse 2: Scenario Mining](https://eval.ai/web/challenges/challenge-page/1857/overview)      | ArgoAI                  |
+| [Roboflow-20VL](https://eval.ai/web/challenges/challenge-page/2459/overview)                     | Roboflow-VL / CVPR     |
+| [AVA Challenge](https://research.google.com/ava/challenge.html)                     | AVA Challenge Team      |
+
+### Other Fields Related to Generation and Analysis
+
+| Name                              | Host                               |
+|-----------------------------------|------------------------------------|
+| [IGLU Challenge](https://iglu-challenge.net/)                    | NeurIPS / IGLU Team                |
+| [LLM Efficiency Challenge](https://mlcommons.org/en/news/mlc-announces-neurips-2022-llm-efficiency-challenge-winners/)          | NeurIPS                            |
+| [Trojan Detection](https://trojandetection.ai/)                  | NeurIPS / CAIS                     |
+| [SMART-101](https://eval.ai/web/challenges/challenge-page/1681/overview)                         | CVPR                               |
+| [NICE Challenge](https://nice.lgresearch.ai/)                    | CVPR / LG Research                 |
+| [SyntaGen](https://syntagen-challenge.github.io/)                          | CVPR                               |
+| [Habitat Challenge](https://aihabitat.org/challenge/)                 | CVPR / FAIR                        |
+| [BIG-bench](https://github.com/google/BIG-bench)                         | Google Research                    |
+| [BIG-bench Hard (BBH)](https://github.com/suzgunmirac/BIG-Bench-Hard)              | Google Research                    |
+| [HELM](https://crfm.stanford.edu/helm/latest/)                              | Stanford CRFM                      |
+| [MMBench](https://github.com/open-compass/MMBench)                           | OpenCompass                        |
+| [MMMU](https://mmmu-benchmark.github.io/)                              | CVPR / U-Waterloo / OSU           |
+| [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)              | VILA-Lab                           |
+| [Text-to-Image Leaderboard](https://www.artificialanalysis.ai/leaderboards/text-to-image)         | Artificial Analysis                |
+| [Ego4D](https://ego4d-data.org/)                             | FAIR                               |
+| [VizWiz Grand Challenge](https://vizwiz.org/)            | CVPR VizWiz Workshop               |
+| [MedFM](https://medfm.github.io/)                             | NeurIPS / Shanghai AI Laboratory   |
+| [3D Scene Understanding](http://www.scan-net.org/)            | CVPR                               |
+
+</details>
+
+## 🔗 Useful Resources and Links
+
+<details>
+<summary><strong>Common Tools and Frameworks</strong></summary>
+
+This section provides links to commonly used tools, frameworks, and resources for working with foundation models in autonomous driving.
+
+### Model Repositories and Leaderboards
+
+- [Hugging Face Models](https://huggingface.co/models) - Large collection of pre-trained foundation models
+- [Hugging Face Vision-Language Models Leaderboard](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) - Benchmark and leaderboard for VLMs
+- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) - Comprehensive LLM benchmarking
+- [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM) - Curated list of Large Language Models resources
+
+### Model Inference Frameworks
+
+- [vLLM](https://github.com/vllm-project/vllm) - High-throughput and memory-efficient inference engine for LLMs
+- [LMDeploy](https://github.com/InternLM/lmdeploy) - Toolkit for compressing, deploying, and serving LLMs
+- [Ollama](https://ollama.ai/) - Run large language models locally
+- [Text Generation Inference](https://github.com/huggingface/text-generation-inference) - Production-ready inference container by Hugging Face
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - High-performance inference library by NVIDIA
+
+### Training and Fine-tuning
+
+- [Hugging Face Transformers](https://github.com/huggingface/transformers) - State-of-the-art ML for PyTorch, TensorFlow, and JAX
+- [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory) - Unified framework for fine-tuning LLMs
+- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) - Tool for fine-tuning large language models
+- [PEFT](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning methods
+
+</details>
 
 ## Open Challenges and Future Directions
 
