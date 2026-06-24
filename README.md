@@ -465,11 +465,11 @@ This repository reorganizes paper lists according to the survey outline below, w
 
 ## Datasets and Benchmarks for Foundation-Model Driving
 
-The following figure keeps the original usage distribution view across autonomous-driving datasets. The curated tables below reorganize the resources around how they are used in foundation-model driving: large-scale perception and planning pretraining, VLM/VLA instruction and action supervision, cooperative multi-agent intelligence, and robustness or safety evaluation.
+<!-- The following figure keeps the original usage distribution view across autonomous-driving datasets. The curated tables below reorganize the resources around how they are used in foundation-model driving: large-scale perception and planning pretraining, VLM/VLA instruction and action supervision, cooperative multi-agent intelligence, and robustness or safety evaluation.
 
 <p align="center">
 <img src="Assets/dataset_usage_combined_plot.png" width="100%" height="auto"/>
-</p>
+</p> -->
 
 <details open>
 <summary><strong>Core driving datasets and planning benchmarks</strong></summary>
