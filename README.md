@@ -60,6 +60,7 @@ This repository reorganizes paper lists according to the survey outline below, w
 
 #### VLM/MLLM-based driving agents
 
+- [2026/03] BEVLM: Distilling Semantic Knowledge from LLMs into Bird's-Eye View Representations [[paper]](https://arxiv.org/abs/2603.06576)
 - [2025/09] DriveAgent-R1: Advancing VLM-Based AD with Hybrid Thinking and Active Perception [[paper]](https://arxiv.org/abs/2507.20879)
 - [2025/06] FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for AD [[paper]](https://arxiv.org/abs/2505.17685)
 - [2025/05] SURDS: Benchmarking Spatial Understanding and Reasoning in Driving Scenarios with VLMs [[paper]](https://arxiv.org/abs/2411.13112)
@@ -78,6 +79,7 @@ This repository reorganizes paper lists according to the survey outline below, w
 - [2023/12] DriveLM: Driving with Graph Visual Question Answering [[paper]](https://arxiv.org/abs/2312.14150)
 - [2023/12] Dolphins: Multimodal Language Model for Driving [[paper]](https://arxiv.org/abs/2312.00438)
 - [2023/11] On the Road with GPT-4V(ision): Early Explorations of VLM on Autonomous Driving [[paper]](https://arxiv.org/abs/2311.05332)
+- [2023/10] Talk2BEV: Language-enhanced Bird's-eye View Maps for Autonomous Driving [[paper]](https://arxiv.org/abs/2310.02251)
 - [2023/10] DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model [[paper]](https://arxiv.org/abs/2310.01412)
 
 #### VLA and end-to-end driving policies
@@ -124,6 +126,7 @@ This repository reorganizes paper lists according to the survey outline below, w
 
 #### Diffusion-based trajectory planning and policy generation
 
+- [2026/06] WAM-Flow: Parallel Coarse-to-Fine Motion Planning via Discrete Flow Matching [[paper]](https://arxiv.org/abs/2512.06112)
 - [2026/02] MVLAD-AD: Efficient and Explainable End-to-End AD via Masked VLA Diffusion [[paper]](https://arxiv.org/abs/2602.20577)
 - [2026/02] DriveFine: Refining-Augmented Masked Diffusion VLA for Precise and Robust Driving [[paper]](https://arxiv.org/abs/2602.14577)
 - [2026/01] Dichotomous Diffusion Policy Optimization [[paper]](https://arxiv.org/abs/2601.00898)
@@ -151,10 +154,32 @@ This repository reorganizes paper lists according to the survey outline below, w
 
 #### World-model-enhanced planning and policy learning
 
+- [2026/03] X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving [[paper]](https://arxiv.org/abs/2603.19979)
+- [2026/03] WorldDrive: Bridging Scene Generation and Planning with Unified Vision-Motion Representation [[paper]](https://arxiv.org/abs/2603.14948)
+- [2026/03] WorldVLM: Combining World Model Forecasting and Vision-Language Reasoning [[paper]](https://arxiv.org/abs/2603.14497)
+- [2026/03] Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving [[paper]](https://arxiv.org/abs/2603.24581)
+- [2026/02] RAYNOVA: Scale-Temporal Autoregressive World Modeling in Ray Space [[paper]](https://arxiv.org/abs/2602.20685)
+- [2026/02] ResWorld: Temporal Residual World Model for End-to-End Autonomous Driving [[paper]](https://arxiv.org/abs/2602.10884)
+- [2026/02] WorldRFT: Latent World Model Planning with Reinforcement Fine-Tuning [[paper]](https://arxiv.org/abs/2512.19133)
 - [2026/01] UniDrive-WM: Unified Understanding, Planning and Generation World Model For Autonomous Driving [[paper]](https://arxiv.org/abs/2601.04453)
+- [2026/01] DrivingGen: Comprehensive Benchmark for Generative Video World Models in AD [[paper]](https://arxiv.org/abs/2601.01528)
+- [2025/12] WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World [[paper]](https://arxiv.org/abs/2512.10958)
+- [2025/10] From Forecasting to Planning: Policy World Model for Collaborative State-Action Prediction [[paper]](https://arxiv.org/abs/2510.19654)
+- [2025/09] TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End AD [[paper]](https://arxiv.org/abs/2509.13164)
 - [2025/06] ReSim: Reliable World Simulation for Autonomous Driving [[paper]](https://arxiv.org/abs/2506.09981)
+- [2025/06] DIO: Decomposable Implicit 4D Occupancy-Flow World Model [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Diehl_DIO_Decomposable_Implicit_4D_Occupancy-Flow_World_Model_CVPR_2025_paper.html)
+- [2025/06] Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models [[paper]](https://arxiv.org/abs/2506.09042)
+- [2025/06] Dreamland: Controllable World Creation with Simulator and Generative Models [[paper]](https://arxiv.org/abs/2506.08006)
+- [2025/06] STAGE: Stream-Centric Generative World Model for Long-Horizon Driving-Scene Simulation [[paper]](https://arxiv.org/abs/2506.13138)
+- [2025/04] DriVerse: Navigation World Model for Driving Simulation via Multimodal Trajectory Prompting [[paper]](https://arxiv.org/abs/2504.18576)
 - [2025/03] GAIA-2: A Controllable Multi-View Generative World Model for AD [[paper]](https://arxiv.org/abs/2503.20523)
+- [2025/03] UniFuture: A 4D Driving World Model for Future Generation and Perception [[paper]](https://arxiv.org/abs/2503.13587)
+- [2025/02] PreWorld: Semi-Supervised Vision-Centric 3D Occupancy World Model for AD [[paper]](https://arxiv.org/abs/2502.07309)
 - [2025/02] VaViM and VaVAM: Autonomous Driving through Video Generative Modeling [[paper]](https://arxiv.org/abs/2502.15672)
+- [2025/01] AdaWM: Adaptive World Model Based Planning for Autonomous Driving [[paper]](https://arxiv.org/abs/2501.13072)
+- [2025/01] HERMES: Unified Self-Driving World Model for 3D Scene Understanding and Generation [[paper]](https://arxiv.org/abs/2501.14729)
+- [2024/12] ACT-Bench: Towards Action Controllable World Models for Autonomous Driving [[paper]](https://arxiv.org/abs/2412.05337)
+- [2024/12] GaussianWorld: Gaussian World Model for Streaming 3D Occupancy Prediction [[paper]](https://arxiv.org/abs/2412.10373)
 - [2024/12] DrivingWorld: Constructing World Model for AD via Video GPT [[paper]](https://arxiv.org/abs/2412.19505)
 - [2024/12] DrivingGPT: Unifying Driving World Modeling and Planning with Multi-Modal Autoregressive Transformers [[paper]](https://arxiv.org/abs/2412.18607)
 - [2024/12] Doe-1: Closed-Loop Autonomous Driving with Large World Model [[paper]](https://arxiv.org/abs/2412.09627)
@@ -171,6 +196,7 @@ This repository reorganizes paper lists according to the survey outline below, w
 - Rule/report/test-intent to logical scenarios:
   - [2025/09] Txt2Sce: Scenario Generation for AD System Testing Based on Textual Reports [[paper]](https://arxiv.org/abs/2509.02150)
   - [2025/03] Text2Scenario: Text-Driven Scenario Generation for AD Test [[paper]](https://arxiv.org/abs/2503.02911)
+  - [2025/01] ML-SceGen: A Multi-Level Scenario Generation Framework [[paper]](https://arxiv.org/abs/2501.10782)
   - [2024/09] LeGEND: Top-Down Scenario Generation Assisted by LLMs [[paper]](https://arxiv.org/abs/2409.10066)
   - [2024/09] SoVAR: Generalizable Scenarios from Accident Reports [[paper]](https://arxiv.org/abs/2409.08081)
   - [2023/05] TARGET: Automated Scenario Generation from Traffic Rules for Testing AVs [[paper]](https://arxiv.org/abs/2305.06018)
@@ -187,19 +213,29 @@ This repository reorganizes paper lists according to the survey outline below, w
   - [2024/12] AutoSceneGen: In-Context Traffic Scenario Generation for Motion Planners [[paper]](https://arxiv.org/abs/2412.18086)
   - [2024/11] Generating Out-of-Distribution Scenarios Using Language Models [[paper]](https://arxiv.org/abs/2411.16554)
   - [2024/09] ProSim: Promptable Closed-Loop Traffic Simulation [[paper]](https://arxiv.org/abs/2409.05863)
+  - [2024/04] CRITICAL: Language Model Integration and Critical Scenario Generation [[paper]](https://arxiv.org/abs/2404.08570)
   - [2023/07] Language Conditioned Traffic Generation [[paper]](https://arxiv.org/abs/2307.07947)
 
 #### Generative scenario synthesis with VLMs, diffusion models, and world models
 
 - Traffic-agent, trajectory, and vectorized scene generation:
+  - [2025/03] DriveGen: Towards Infinite Diverse Traffic Scenarios with Large Models [[paper]](https://arxiv.org/abs/2503.05808)
   - [2025/03] Scenario Dreamer: Vectorized Latent Diffusion for Driving Simulation Environments [[paper]](https://arxiv.org/abs/2503.22496)
   - [2025/02] CCDiff: Causal Composition Diffusion for Closed-Loop Traffic Generation [[paper]](https://arxiv.org/abs/2412.17920)
   - [2024/12] SceneDiffuser: Efficient and Controllable Driving Simulation Initialization and Rollout [[paper]](https://arxiv.org/abs/2412.12129)
+  - [2024/11] DiffRoad: Realistic and Diverse Road Scenario Generation for AV Testing [[paper]](https://arxiv.org/abs/2411.09451)
   - [2024/04] VBD: Versatile Behavior Diffusion for Generalized Traffic Agent Simulation [[paper]](https://arxiv.org/abs/2404.02524)
+  - [2024/01] DriveSceneGen: Generating Diverse and Realistic Driving Scenarios from Scratch [[paper]](https://arxiv.org/abs/2309.14685)
   - [2023/11] Scenario Diffusion: Controllable Driving Scenario Generation with Diffusion [[paper]](https://arxiv.org/abs/2311.02738)
   - [2023/10] CTG: Guided Conditional Diffusion for Controllable Traffic Simulation [[paper]](https://arxiv.org/abs/2210.17366)
   - [2023/10] TrafficGen: Diverse and Realistic Traffic Scenarios [[paper]](https://arxiv.org/abs/2210.06609)
 - Street-view, multi-view, video, and 3D-aware generation:
+  - [2026/03] Risk-Controllable Multi-View Diffusion for Driving Scenario Generation [[paper]](https://arxiv.org/abs/2603.11534)
+  - [2025/09] TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End AD [[paper]](https://arxiv.org/abs/2509.13164)
+  - [2025/06] Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models [[paper]](https://arxiv.org/abs/2506.09042)
+  - [2025/06] Dreamland: Controllable World Creation with Simulator and Generative Models [[paper]](https://arxiv.org/abs/2506.08006)
+  - [2025/06] STAGE: Stream-Centric Generative World Model for Long-Horizon Driving-Scene Simulation [[paper]](https://arxiv.org/abs/2506.13138)
+  - [2025/04] DriVerse: Navigation World Model for Driving Simulation via Multimodal Trajectory Prompting [[paper]](https://arxiv.org/abs/2504.18576)
   - [2025/08] HERMES: Unified Self-Driving World Model for 3D Understanding and Generation [[paper]](https://arxiv.org/abs/2501.14729)
   - [2025/06] Epona: Autoregressive Diffusion World Model for AD [[paper]](https://arxiv.org/abs/2506.24113)
   - [2024/11] MagicDrive-V2: High-Resolution Long Video Generation for AD [[paper]](https://arxiv.org/abs/2411.13807)
@@ -224,12 +260,16 @@ This repository reorganizes paper lists according to the survey outline below, w
   - [2021/03] AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles [[paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_AdvSim_Generating_Safety-Critical_Scenarios_for_Self-Driving_Vehicles_CVPR_2021_paper.html)
   - [2020/03] Learning to Collide: Adaptive Safety-Critical Scenario Generation [[paper]](https://arxiv.org/abs/2003.01197)
 - LLM/VLM-guided adversarial scenario search:
+  - [2025/11] Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge [[paper]](https://arxiv.org/abs/2511.20726)
   - [2025/08] Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios [[paper]](https://arxiv.org/abs/2508.14527)
   - [2025/07] AGENTS-LLM: Agentic Generation of Challenging Traffic Scenarios [[paper]](https://arxiv.org/abs/2507.13729)
+  - [2025/05] From Failures to Fixes: LLM-Driven Scenario Repair for Self-Evolving AD [[paper]](https://arxiv.org/abs/2505.22067)
   - [2025/05] Seeking to Collide: Online Safety-Critical Generation with RAG-LLM [[paper]](https://arxiv.org/abs/2505.00972)
   - [2025/02] From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation [[paper]](https://arxiv.org/abs/2502.02145)
   - [2025/01] LLM-attacker: Closed-Loop Adversarial Scenario Generation for AD [[paper]](https://arxiv.org/abs/2501.15850)
 - Diffusion/world-model adversarial regeneration:
+  - [2026/06] RiskFlow: Fast and Faithful Safety-Critical Traffic Scenario Generation [[paper]](https://arxiv.org/abs/2606.06423)
+  - [2026/03] Risk-Controllable Multi-View Diffusion for Driving Scenario Generation [[paper]](https://arxiv.org/abs/2603.11534)
   - [2026/03] AnchorDrive: LLM Scenario Rollout with Anchor-Guided Diffusion Regeneration [[paper]](https://arxiv.org/abs/2603.02542)
   - [2025/12] VLM as Strategist: Adaptive Safety-Critical Testing via Guided Diffusion [[paper]](https://arxiv.org/abs/2512.02844)
   - [2025/05] LD-Scene: LLM-Guided Diffusion for Adversarial Safety-Critical Scenarios [[paper]](https://arxiv.org/abs/2505.11247)
@@ -258,9 +298,12 @@ This repository reorganizes paper lists according to the survey outline below, w
   - [2023/12] DriveLM: Driving with Graph Visual Question Answering [[paper]](https://arxiv.org/abs/2312.14150)
 - Agentic and closed-loop evaluation:
   - [2026/03] Probing the Reliability of Driving VLMs: Inconsistent Responses to Grounded Temporal Reasoning [[paper]](https://arxiv.org/abs/2603.09512)
+  - [2026/01] DrivingGen: Comprehensive Benchmark for Generative Video World Models in AD [[paper]](https://arxiv.org/abs/2601.01528)
   - [2026/01] AgentDrive: Agentic AI Reasoning with LLM-Generated Scenarios [[paper]](https://arxiv.org/abs/2601.16964)
+  - [2025/12] WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World [[paper]](https://arxiv.org/abs/2512.10958)
   - [2025/10] More Than Meets the Eye? Reasoning-Planning Disconnect in VLM Driving Models [[paper]](https://arxiv.org/abs/2510.04532)
   - [2025/08] Bench2ADVLM: Closed-Loop Benchmark for VLMs in AD [[paper]](https://arxiv.org/abs/2508.02028)
+  - [2024/12] ACT-Bench: Towards Action Controllable World Models for Autonomous Driving [[paper]](https://arxiv.org/abs/2412.05337)
   - [2024/05] Probing Multimodal LLMs as World Models for Driving [[paper]](https://arxiv.org/abs/2405.05956)
 
 ## Multi-Agent Traffic Intelligence for Autonomous Driving
@@ -465,11 +508,11 @@ This repository reorganizes paper lists according to the survey outline below, w
 
 ## Datasets and Benchmarks for Foundation-Model Driving
 
-<!-- The following figure keeps the original usage distribution view across autonomous-driving datasets. The curated tables below reorganize the resources around how they are used in foundation-model driving: large-scale perception and planning pretraining, VLM/VLA instruction and action supervision, cooperative multi-agent intelligence, and robustness or safety evaluation.
+The following figure keeps the original usage distribution view across autonomous-driving datasets. The curated tables below reorganize the resources around how they are used in foundation-model driving: large-scale perception and planning pretraining, VLM/VLA instruction and action supervision, cooperative multi-agent intelligence, and robustness or safety evaluation.
 
 <p align="center">
 <img src="Assets/dataset_usage_combined_plot.png" width="100%" height="auto"/>
-</p> -->
+</p>
 
 <details open>
 <summary><strong>Core driving datasets and planning benchmarks</strong></summary>
